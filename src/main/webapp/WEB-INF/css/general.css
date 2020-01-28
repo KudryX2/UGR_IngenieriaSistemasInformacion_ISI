@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+body {
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxuxciT537WrokbQkvrF6TVlbxll_32Q0VSM7P4rPREDihxdE");
+	background-attachment: fixed;
+}
+
+#buscador, #destacados{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+	color: white;
+	font-weight: bold;
+	
+	background:rgba(0, 0, 0, 0.9);	
+
+	margin-top: 10em;	
+	margin-left: 15em;
+	margin-right: 15em;
+	
+	padding: 2em;
+}
+
+#buscador h{
+	margin-right: 1em;
+}
+
+#buscador input[type=text] {
+	
+	box-sizing: border-box;
+	padding: 0.5em;
+	font-weight: bold;
+	background-color: grey;		
+
+	color: white;
+	border: none;
+	
+	width: 15em;
+	
+	cursor: pointer;
+	
+}
+
+#buscador input[type=button], input[type=submit], input[type=reset]{
+	margin-left: 1em;
+	
+	background-color: green;
+	font-weight: bold;
+	border: none;
+	color: white;
+	padding: 0.5em;
+	text-decoration: none;
+	cursor: pointer;
+}

@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+.juego{
+	
+	display: flex;
+		
+	background:rgba(0, 0, 0, 0.8);	
+	margin: 1em;
+
+	align-items: center;
+	
+	
+	width: 100%;
+	
+}
+
+.imagen{
+	margin: 1em;
+}
+
+.izq{
+	float: left;
+	width: 85%;
+}
+
+.izq div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.der div{
+	margin-top: 1.8em;
+}
+
+.juego a{
+	font-weight: bold;
+	text-decoration: none;
+	background-color: green;
+	
+	padding: 0.5em;
+}
+
+.juego h1{
+	color: white;
+}

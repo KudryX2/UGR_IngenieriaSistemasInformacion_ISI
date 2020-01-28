@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+p {
+	color: white;		
+}
+
+#buscador{
+	margin-top: 10em;	
+	margin-left: 0em;
+	margin-right: 0em;
+	
+	padding: 2em;
+}
+
+#infoJuego, #precios {
+	background:rgba(0, 0, 0, 0.9);	
+}
+
+#nombreJuego {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#infoJuego img{
+	margin: 1em;
+}
+
+#contenido{
+	display: flex;
+}
+
+#descripcion{
+	margin: 1em;
+}
+
+#precios{
+	padding-bottom: 0.5em;	
+}
+
+.nombreJuego {
+	margin: 1em;
+	margin-left: 5em;
+}
+
+
+#preciosTexto{
+	text-align: center;	
+	font-weight: bold;
+	margin: 1em;
+	padding: 1em;
+	font-size: 1.5em;
+}
+
+.resultado{
+	display: flex;
+	flex-direction: row;
+ 	align-items: center;
+ 	background:rgba(0, 0, 0, 1);
+ 	margin: 0.5em;
+ 	margin-bottom: 1em;	
+ }
+ 
+ .resultado div{
+ 	width: 80%;
+ }
+ 
+
+.enlace{	
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.enlace p{
+	background-color: green;
+	padding: 0.5em;
+}
+
